@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Carousel from './Carousel';
-import carousel_1 from '../img/carousel_1.png';
-import carousel_2 from '../img/carousel_2.png';
+import carousel_1 from '../img/carousel_1.jpg';
+import carousel_2 from '../img/carousel_2.jpg';
 
 const Exterior = () => {
   const images = [carousel_1, carousel_2, carousel_1];
