@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Hyundai Sans Head KR;
+  src: local(''),
+  url('../fonts/HyundaiSansHeadKRBold.otf') format('otf'),
+  url('../fonts/HyundaiSansHeadKRBold.ttf') format('ttf'),
+  url('../fonts/HyundaiSansHeadKRBold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Hyundai Sans Head KR;
+  src: local(''),
+  url('../fonts/HyundaiSansHeadKRLight.otf') format('otf'),
+  url('../fonts/HyundaiSansHeadKRLight.ttf') format('ttf'),
+  url('../fonts/HyundaiSansHeadKRLight.woff') format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Hyundai Sans Head KR;
+  src: local('./font'),
+  url('../fonts/HyundaiSansHeadKRMedium.otf') format('otf'),
+  url('../fonts/HyundaiSansHeadKRMedium.ttf') format('ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Hyundai Sans Head KR;
+  src: local('./font'),
+  url('../fonts/HyundaiSansHeadKRRegular.otf') format('otf'),
+  url('../fonts/HyundaiSansHeadKRRegular.ttf') format('ttf'),
+  url('../fonts/HyundaiSansHeadKRRegular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Hyundai Sans Text KR;
+  src: local('./font'),
+  url('../fonts/HyundaiSansTextKRBold.otf') format('otf'),
+  url('../fonts/HyundaiSansTextKRBold.ttf') format('ttf'),
+  url('../fonts/HyundaiSansTextKRBold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Hyundai Sans Text KR;
+  src: local('./font'),
+  url('../fonts/HyundaiSansTextKRMedium.otf') format('otf'),
+  url('../fonts/HyundaiSansTextKRMedium.ttf') format('ttf'),
+  url('../fonts/HyundaiSansTextKRMedium.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Hyundai Sans Text KR;
+  src: local('./font'),
+  url('../fonts/HyundaiSansTextKRRegular.otf') format('otf'),
+  url('../fonts/HyundaiSansTextKRRegular.ttf') format('ttf'),
+  url('../fonts/HyundaiSansTextKRRegular.woff') format('woff');
+  font-weight: 400;
+}
