@@ -9,7 +9,7 @@ const Intro = () => {
       <div className="container">
         <h1>Hyundai Azera</h1>
         <p>Redefine success.</p>
-        <video onEnded={() => setVideoEnd(true)} className={`video ${videoEnd && 'hidden'}`} autoPlay>
+        <video muted onEnded={() => setVideoEnd(true)} className={`video ${videoEnd && 'hidden'}`} autoPlay>
           <source src="/main.mp4"/>
         </video>
       </div>
