@@ -55,7 +55,7 @@ function Form() {
           </select>
           {isSubmit
             ? <div className="button form__submit">Thank you!</div>
-            :<button disabled={!isValid} type="submit" className="button button__white">
+            :<button disabled={!isValid} type="submit" className={`button ${isValid && 'button__white'}`}>
               Request
             </button>}
         </form>
